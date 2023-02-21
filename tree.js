@@ -111,12 +111,12 @@ class binarySearchTree {
             root.value = this.min(root.right)
             root.right = this.deleteNode(root.right,root.value)
         }
-        return rooT
+        return root
         
-    }
+   0 }
 }
 const bst = new binarySearchTree 
-    console.log("tree empty?"+bst.isEmpty());
+    console.log("tree empty? "+bst.isEmpty());
     bst.insert(10)
     bst.insert(5)
     bst.insert(15)
